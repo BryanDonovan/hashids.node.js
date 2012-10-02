@@ -38,15 +38,15 @@ You can pass a unique salt value so your hashes differ from everyone else's. I u
 
 ```javascript
 
-      var Hashids = require("hashids");
-      var hashes = new Hashids("this is my salt");
+var Hashids = require("hashids");
+var hashes = new Hashids("this is my salt");
 
-      var hash = hashes.encrypt(12345);
+var hash = hashes.encrypt(12345);
 ```
 
 `hash` is now going to be:
  
-      ryKo
+    ryKo
 
 #### Decrypting
 
